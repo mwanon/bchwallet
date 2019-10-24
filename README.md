@@ -66,9 +66,9 @@ Wallet clients can use one of two RPC servers:
 
 Install the latest MSIs available here:
 
-https://github.com/gcash/bchd/releases
+https://github.com/mwanon/bchd/releases
 
-https://github.com/gcash/bchwallet/releases
+https://github.com/mwanon/bchwallet/releases
 
 ### Windows/Linux/BSD/POSIX - Build from source
 
@@ -82,7 +82,7 @@ Building or updating from source requires the following build dependencies:
 **Getting the source**:
 
 ```
-go get github.com/gcash/bchwallet
+go get github.com/mwanon/bchwallet
 ```
 
 **Building/Installing**:

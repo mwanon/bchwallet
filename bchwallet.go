@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/gcash/bchwallet/boot"
+	"github.com/mwanon/bchwallet/boot"
 
 	_ "net/http/pprof"
 	"os"

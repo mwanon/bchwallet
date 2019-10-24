@@ -18,30 +18,30 @@ type Params struct {
 // bchd on the main network (wire.MainNet).
 var MainNetParams = Params{
 	Params:        &chaincfg.MainNetParams,
-	RPCClientPort: "8334",
-	RPCServerPort: "8332",
+	RPCClientPort: "8454",
+	RPCServerPort: "8452",
 }
 
 // TestNet3Params contains parameters specific running bchwallet and
 // bchd on the test network (version 3) (wire.TestNet3).
 var TestNet3Params = Params{
 	Params:        &chaincfg.TestNet3Params,
-	RPCClientPort: "18334",
-	RPCServerPort: "18332",
+	RPCClientPort: "18454",
+	RPCServerPort: "18452",
 }
 
 // RegtestParams contains parameters specific running bchwallet and
 // bchd on the regression test network (wire.TestNet).
 var RegtestParams = Params{
 	Params:        &chaincfg.RegressionNetParams,
-	RPCClientPort: "18334",
-	RPCServerPort: "18332",
+	RPCClientPort: "18454",
+	RPCServerPort: "18452",
 }
 
 // SimNetParams contains parameters specific to the simulation test network
 // (wire.SimNet).
 var SimNetParams = Params{
 	Params:        &chaincfg.SimNetParams,
-	RPCClientPort: "18556",
-	RPCServerPort: "18554",
+	RPCClientPort: "18456",
+	RPCServerPort: "18454",
 }

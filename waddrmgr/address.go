@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gcash/bchd/bchec"
-	"github.com/gcash/bchutil"
-	"github.com/gcash/bchutil/hdkeychain"
-	"github.com/gcash/bchwallet/internal/zero"
-	"github.com/gcash/bchwallet/walletdb"
+	"github.com/mwanon/bchd/bchec"
+	"github.com/mwanon/bchutil"
+	"github.com/mwanon/bchutil/hdkeychain"
+	"github.com/mwanon/bchwallet/internal/zero"
+	"github.com/mwanon/bchwallet/walletdb"
 )
 
 // AddressType represents the various address types waddrmgr is currently able
@@ -26,6 +26,7 @@ type AddressType uint8
 const (
 	// PubKeyHash is a regular p2pkh address.
 	PubKeyHash AddressType = iota
+
 
 	// Script reprints a raw script address.
 	Script
